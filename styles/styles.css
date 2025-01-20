@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+/* font section */
+.quicksand-normal {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+/* universal section or shared section */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+body {
+    width: 90%;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+/* nav section start */
+.nav-section {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -60px;
+
+}
+
+
+.logo-div {
+    align-items: center;
+    gap: 11px;
+}
+
+.nav-school {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+
+
+
+
+.logo-middle-div {
+    gap: 32px;
+
+}
+
+.nav-home {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(254, 163, 1);
+}
+
+.nav-about {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(1, 172, 253);
+}
+
+.nav-facilities {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(5, 212, 223);
+}
+
+.nav-admission {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(93, 88, 239);
+}
+
+
+
+
+.nav-button-text {
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #FEA301;
+    border-style: none;
+    color: rgb(255, 255, 255);
+}
+
+.hamburger-menu {
+    width: 30px;
+    height: 30px;
+}
+
+
+/* nav section end */
+
+
+
+/* banner section starts */
+
+.banner-section {
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.banner-left-h1 {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.Empowering {
+    color: #FEA301;
+}
+
+.towards-vision {
+    color: #01ACFD;
+}
+
+.banner-left-h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.banner-enroll-btn {
+    margin-top: 24px;
+    width: 197px;
+    height: 50px;
+    background-color: rgb(17, 17, 17);
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    border-style: none;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .nav-button-text {
+        display: none;
+    }
+
+    .logo-middle-div {
+        display: none;
+    }
+
+    .nav-section {
+        border-bottom: 0.5px solid rgb(254, 163, 1);
+
+    }
+
+    .banner-section {
+      flex-direction: column-reverse;       
+    }
+    .banner-section-right-pic{
+        width: 100vw;
+    }
+    .banner-section-left{
+        justify-content: center;
+        text-align: center;
+        
+        
+    }
+
+}
+
+@media screen and (min-width:577px) {
+    .hamburger-menu {
+        display: none;
+    }
+
+
+
+}
