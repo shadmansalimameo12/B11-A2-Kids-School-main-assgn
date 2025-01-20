@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* font section */
 .quicksand-normal {
     font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.raleway-normal {
+    font-family: "Raleway", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -143,6 +151,80 @@ body {
     border-style: none;
 }
 
+/* banner section end*/
+
+
+
+/* curriculum section start */
+.Curriculum-container{
+    background-image: url(/assets/bg.png);
+    background-size: cover;
+    
+}
+
+
+
+
+.Curriculum-card-container {
+    justify-content: space-between;
+    gap: 20PX;
+    max-width: 1160px;
+    align-items: center;
+    margin: 0 auto;
+
+
+}
+
+.Curriculum-header {
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+
+
+.Curriculum-card-1 {
+    text-align: center;
+    border: 1px solid red;
+    width: 33vw;
+    height: 476.78px;
+
+    flex-direction: column;
+    justify-content: center;
+    gap: 33px;
+
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+
+
+}
+
+.Curriculum-card-1-h1 {
+    font-size: 24.52px;
+    font-weight: 700;
+}
+
+.Curriculum-card-1-p {
+    color: rgb(128, 128, 128);
+    font-family: Raleway;
+    font-size: 15.09px;
+    font-weight: 500;
+    line-height: 28.3px;
+    text-align: center;
+}
+
+.Curriculum-card-1-readmore {
+    color: rgb(100, 200, 255);
+    font-family: Quicksand;
+    font-size: 15.09px;
+    font-weight: 700;
+    line-height: 28.3px;
+    text-align: center;
+}
 
 
 
@@ -150,6 +232,107 @@ body {
 
 
 
+
+.Curriculum-card-2 {
+    text-align: center;
+    border: 1px solid blue;
+    width: 33vw;
+    height: 476.78px;
+
+    flex-direction: column;
+    justify-content: center;
+    gap: 33px;
+
+    box-sizing: border-box;
+    border: 0.94px solid rgb(255, 244, 220);
+    border-radius: 18.86px;
+
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+
+}
+
+.Curriculum-card-2-h1 {
+    font-size: 24.52px;
+    font-weight: 700;
+}
+
+.Curriculum-card-2-p {
+    color: rgb(128, 128, 128);
+    font-family: Raleway;
+    font-size: 15.09px;
+    font-weight: 500;
+    line-height: 28.3px;
+    text-align: center;
+}
+
+.Curriculum-card-2-readmore {
+    color: rgba(240, 170, 0, 1);
+    font-family: Quicksand;
+    font-size: 15.09px;
+    font-weight: 700;
+    line-height: 28.3px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.Curriculum-card-3 {
+    text-align: center;
+    border: 1px solid green;
+    width: 33vw;
+    height: 476.78px;
+
+    flex-direction: column;
+    justify-content: center;
+    gap: 33px;
+
+    box-sizing: border-box;
+    border: 0.94px solid rgb(242, 232, 255);
+    border-radius: 18.86px;
+
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+    
+}
+
+.Curriculum-card-3-h1 {
+    font-size: 24.52px;
+    font-weight: 700;
+}
+
+.Curriculum-card-3-p {
+    color: rgb(128, 128, 128);
+    font-family: Raleway;
+    font-size: 15.09px;
+    font-weight: 500;
+    line-height: 28.3px;
+    text-align: center;
+}
+
+.Curriculum-card-3-readmore {
+    color: rgba(135, 0, 255, 1);
+    font-family: Quicksand;
+    font-size: 15.09px;
+    font-weight: 700;
+    line-height: 28.3px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* mobile display */
 @media screen and (max-width:576px) {
     .nav-button-text {
         display: none;
@@ -165,20 +348,30 @@ body {
     }
 
     .banner-section {
-      flex-direction: column-reverse;       
+        flex-direction: column-reverse;
     }
-    .banner-section-right-pic{
+
+    .banner-section-right-pic {
         width: 100vw;
     }
-    .banner-section-left{
+
+    .banner-section-left {
         justify-content: center;
         text-align: center;
-        
-        
+
+
     }
 
+
+    .Curriculum-card-container{
+        flex-direction: column;
+    }
+    .Curriculum-card-1, .Curriculum-card-2, .Curriculum-card-3 {
+        width: auto;
+    }
 }
 
+/* pc display */
 @media screen and (min-width:577px) {
     .hamburger-menu {
         display: none;
