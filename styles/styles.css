@@ -822,7 +822,9 @@ body {
 }
 
 
-
+.icon-div{
+  gap: 10px ;
+}
 
 
 
@@ -947,6 +949,7 @@ body {
     }
     .icon-div{
         flex-direction: column;
+        
     }
     .kids-description{
         color: black;
