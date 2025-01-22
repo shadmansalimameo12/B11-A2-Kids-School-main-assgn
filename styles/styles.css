@@ -36,6 +36,67 @@ body {
     margin-top: 60px;
 }
 
+
+/* shared section ends */
+
+/* Hovering effects section */
+
+/* image effect */
+.img1:hover, .img2:hover {
+    background-color: #ffcc00; 
+    transform: scale(1.1); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease; 
+}
+
+.sign1:hover, .sign2:hover {
+    color: #ffffff; 
+    transition: color 0.3s ease; 
+}
+
+
+/* enroll now effect */
+.banner-enroll-btn:hover {
+    background-color: #ffcc00; 
+    color: #000000; 
+    transform: scale(1.1); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease; 
+}
+/* View All button hover effect */
+.view-all-btn:hover {
+    background-color: #ffcc00; 
+    color: #000000; 
+    transform: scale(1.1); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease; 
+}
+
+/* Read More button hover effect */
+.Curriculum-card-1-readmore:hover, 
+.Curriculum-card-2-readmore:hover, 
+.Curriculum-card-3-readmore:hover {
+    color: #ffcc00; 
+    text-decoration:wavy; 
+    transition: all 0.3s ease; 
+}
+/* Contact button hover effect */
+.nav-button-text:hover {
+    background-color: #ffcc00; 
+    color: #000000; 
+    transform: scale(1.1); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease; 
+}
+
+
+/* hovering effect section ends */
+
+
+
+
+
+
 /* nav section start */
 .nav-section {
     justify-content: space-between;
