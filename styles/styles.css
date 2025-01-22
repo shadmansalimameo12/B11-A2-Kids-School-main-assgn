@@ -158,7 +158,7 @@ body {
 /* curriculum section start */
 .Curriculum-container {
     background-image: url(../assets/bg.png);
-    
+
     background-size: cover;
 
 }
@@ -398,7 +398,7 @@ body {
     grid-template-columns: 2fr 1fr; */
     margin-bottom: 80px;
     justify-content: center;
-    background-image: url(/assets/bg.png);
+    background-image: url(../assets/bg.png);
 
 }
 
