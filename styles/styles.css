@@ -112,6 +112,49 @@ body {
 /* nav section end */
 
 
+/* marqee section start */
+
+.marquee{
+    width: 100%;
+    background-color: rgb(238, 182, 130);
+    text-transform: uppercase;
+    overflow: hidden;
+}
+.marquee div{
+    font-size: 3 rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    white-space: nowrap;
+    animation: animate 12s linear infinite;
+    padding-left: 100%;
+    display: inline-block;
+
+}
+
+
+@keyframes animate{
+    100% {
+        transform: translate(-100%, 0);
+    }
+}
+
+
+
+
+
+
+
+
+
+/* marqee section end */
+
+
+
+
+
+
+
+
+
 
 /* banner section starts */
 
