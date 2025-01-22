@@ -741,7 +741,7 @@ body {
     margin-bottom: 70px;
     justify-content: center;
 
-    background-image: url(./assets/bg.png);
+    /* background-image: url(./assets/bg.png); */
     border-radius: 12px;
 
     background-color: rgb(17, 17, 17);
